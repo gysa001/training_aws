@@ -10,7 +10,7 @@ git add <nama file/folder> <-- file/folder tertentu
 git add -p <-- menambahkan per hunk (potongan perubahan)
 
 Tambahan baris lagi
-
+<<testing andry>>2
 3. Menyimpan perubahan dalam staging area ke repository
 
 git commit <-- menampilkan layar edit komentar/penjelasan perubahan (dengan vim)
