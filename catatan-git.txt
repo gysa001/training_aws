@@ -31,6 +31,8 @@ VIM :
   - id_rsa : private key
   - id_rsa.pub : public key
 
+tambah data
+
 5. Daftarkan public key ssh di server git (misal github)
 - Klik foto di kanan atas, klik Settings
 - SSH and GPG Keys
