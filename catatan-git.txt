@@ -1,5 +1,6 @@
 1. Bikin repository local
-<<testing andry>>test
+testing andrytest
+testing push
 tambah disini
 cd ebs-db
 git init <-- membuat repository local
