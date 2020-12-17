@@ -40,6 +40,7 @@ tambah data
 - Title : misalnya : laptop macbook/pc kantor
 - Key : open id_rsa.pub di notepad, copas isinya di sini
 
+Test tambahan baris di sini
 6. Upload ke remote
 - Daftarkan remote git url (pilih yang SSH)
   git remote add <nama remote> <url remote>
