@@ -1,5 +1,5 @@
 1. Bikin repository local
-
+<<testing andry>>
 cd ebs-db
 git init <-- membuat repository local
 
