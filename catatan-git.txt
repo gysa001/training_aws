@@ -9,6 +9,7 @@ git add . <-- semua file dan folder rekursif
 git add <nama file/folder> <-- file/folder tertentu
 git add -p <-- menambahkan per hunk (potongan perubahan)
 
+tambah data 
 3. Menyimpan perubahan dalam staging area ke repository
 
 git commit <-- menampilkan layar edit komentar/penjelasan perubahan (dengan vim)
