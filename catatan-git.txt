@@ -1,0 +1,66 @@
+1. Bikin repository local
+
+cd ebs-db
+git init <-- membuat repository local
+
+2. Menambahkan perubahan ke staging area
+
+git add . <-- semua file dan folder rekursif
+git add <nama file/folder> <-- file/folder tertentu
+git add -p <-- menambahkan per hunk (potongan perubahan)
+
+3. Menyimpan perubahan dalam staging area ke repository
+
+git commit <-- menampilkan layar edit komentar/penjelasan perubahan (dengan vim)
+git commit -m "keterangan/penjelasan tentang commit" <-- langsung commit dengan message tsb
+
+VIM : 
+- mode navigasi
+- mode edit
+- pindah ke mode edit : (i)nsert, (a)ppend, (o) edit di baris baru di bawah kursor, (O) edit di baris baru di atas kursor
+- pindah ke mode navigasi : esc
+- save : :w<enter>
+- quit : :q<enter>
+- save + quit : :wq<enter>
+- quit tanpa save : :q!<enter>
+
+4. Generate SSH Key Pair
+- buka Git Bash
+- ssh-keygen 
+- Hasilnya di folder C:\Users\<nama user>\.ssh
+  - id_rsa : private key
+  - id_rsa.pub : public key
+
+5. Daftarkan public key ssh di server git (misal github)
+- Klik foto di kanan atas, klik Settings
+- SSH and GPG Keys
+- New SSH Key
+- Title : misalnya : laptop macbook/pc kantor
+- Key : open id_rsa.pub di notepad, copas isinya di sini
+
+6. Upload ke remote
+- Daftarkan remote git url (pilih yang SSH)
+  git remote add <nama remote> <url remote>
+
+- Lihat daftar nama branch di repo lokal
+  git branch
+
+- Push / Upload
+  git push <nama remote> <nama branch>
+  Contoh : git push github master
+
+- Hapus remote
+  git remote rm <nama remote>
+
+7. Mengambil repository remote ke local
+- git clone <url repository remote>
+- Hasilnya :
+  - remote repository terdownload di local
+  - remote repository terdaftar dengan nama origin
+
+8. Beberapa istilah
+- push : upload commit di repo local ke repo remote
+- fetch : mengambil commit di repo remote ke repo local (update remote branch only)
+- pull : fetch + merge remote branch ke local branch
+
+
