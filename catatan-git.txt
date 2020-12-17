@@ -71,4 +71,9 @@ Test tambahan baris di sini
 - fetch : mengambil commit di repo remote ke repo local (update remote branch only)
 - pull : fetch + merge remote branch ke local branch
 
+9. Conflict
+- conflict terjadi bila satu baris diedit berbarengan
+- conflict terjadi pada saat merge/pull
+- git akan memberikan penanda/marker conflict
+- setelah file yang conflict diperbaiki, kita lanjut add, commit seperti biasa
 
